@@ -59,7 +59,12 @@ def make_full_path_tree(path):
 #def renew_path_tree(root,path):
     
 
-print(split_path("sample_data"))
-root = make_full_path_tree("sample_data")
-print_path_tree(root)
-print(root.path)
+if __name__ == "__main__":
+    sample_path = "sample_data"
+    if os.path.isdir(sample_path):
+        print(split_path(sample_path))
+        root = make_full_path_tree(sample_path)
+        print_path_tree(root)
+        print(root.path)
+    else:
+        print("sample_data directory not found")

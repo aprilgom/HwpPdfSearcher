@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+
+# Local runtime state. These files may contain local paths and document names.
+filelist
+pathlist
+setting

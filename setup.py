@@ -14,7 +14,7 @@ exe = [Executable("main.py",base=base)]  # 2
 setup(
     name='hwppdfindexer',
     version = '0.1',
-    author = "example@example.com",
+    author = "aprilgom",
     options = dict(build_exe = buildOptions),
     executables = exe
 )
